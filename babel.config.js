@@ -1,6 +1,6 @@
 module.exports = function (api) {
   api.cache(true);
   return {
-    presets: ['babel-preset-expo', 'uniwind/babel'],
+    presets: ['babel-preset-expo'],
   };
 };
